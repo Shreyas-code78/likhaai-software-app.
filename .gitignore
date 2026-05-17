@@ -1,0 +1,24 @@
+# Dependencies - never commit these
+node_modules/
+student-app/node_modules/
+writer-app/node_modules/
+
+# Build output
+student-app/build/
+writer-app/build/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven
+backend/target/
